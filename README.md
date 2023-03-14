@@ -4,10 +4,10 @@ Running LLAMA 7B model with 4 bit quantization on google colab using [GPTQ](http
 
 
 ## Dependencies
-`torch`: tested on v1.13.1+cu116
-`transformers`: tested on v4.27.0.dev0(required)
-`datasets`: tested on v2.10.1
-`safetensors`: tested on v0.3.0
+`torch`: tested on v1.13.1+cu116  
+`transformers`: tested on v4.27.0.dev0(required)  
+`datasets`: tested on v2.10.1  
+`safetensors`: tested on v0.3.0  
 (to run 4-bit kernels: setup for compiling PyTorch CUDA extensions, see also <https://pytorch.org/tutorials/advanced/cpp_extension.html>, tested on CUDA 11.6)
 
 ## Memory Usage
